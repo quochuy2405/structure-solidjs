@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"jsx": "preserve",
+		"jsxImportSource": "solid-js",
+		"types": ["vite/client"],
+		"typeRoots": ["vite.config.ts"],
+		"noEmit": true,
+		"isolatedModules": true,
+		"resolveJsonModule": true,
+		"forceConsistentCasingInFileNames": true,
+		"baseUrl": "./src",
+		"paths": {
+			"@/components/*": ["components/*"],
+			"@/hooks/*": ["hooks/*"],
+			"@/mocks/*": ["mocks/*"],
+			"@/pages/*": ["pages/*"],
+			"@/styles/*": ["styles/*"],
+			"@/types/*": ["types/*"],
+			"@/assets/*": ["assets/*"],
+			"@/presets/*": ["presets/*"],
+			"@/utils/*": ["utils/*"],
+			"@/constants/*": ["constants/*"],
+			"@/providers/*": ["providers/*"],
+			"@/layouts/*": ["layouts/*"],
+			"@/stores/*": ["stores/*"],
+			"@/resolvers/*": ["resolvers/*"]
+		}
+	}
+}
